@@ -1,0 +1,21 @@
+{
+  "employees": [],
+  "leaves": [
+    {
+      "id": "cef2",
+      "employeeName": "Rofi",
+      "leaveType": "fad",
+      "startDate": "2025-01-09",
+      "endDate": "2025-01-02",
+      "status": "Pending"
+    },
+    {
+      "id": "4384",
+      "employeeName": "Rofik",
+      "leaveType": "fad",
+      "startDate": "2025-01-08",
+      "endDate": "2025-01-10",
+      "status": "Pending"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background: url('/assets/imgpsh_fullsize_anim-99.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensure the image covers the entire screen */
+    font-family: Arial, sans-serif;
+}
+
+/* Centering the report table */
+.table-container {
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Add space from top for better visibility */
+    max-width: 1000px;
+}
+
+/* Styling the table */
+.table th, .table td {
+    text-align: center;
+}
+
+.table th {
+    background-color: #0069d9;
+    color: white;
+}
+
+.table td {
+    background-color: #f9f9f9;
+}
+
+/* Styling the button */
+.btn-export {
+    margin-top: 20px;
+}
+
+.btn-export:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design: Make the report table responsive */
+@media (max-width: 768px) {
+    .table-container {
+        padding: 15px;
+    }
+
+    .table {
+        font-size: 12px;
+    }
+}

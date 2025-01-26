@@ -1,0 +1,53 @@
+/* Update Leave Form */
+.update-leave-form {
+    max-width: 700px; /* Increased width */
+    margin: 0 auto;
+    padding: 20px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .update-leave-form h2 {
+    font-size: 22px; /* Increased heading size */
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .update-leave-form .form-group {
+    margin-bottom: 20px; /* Increased margin */
+  }
+  
+  .update-leave-form label {
+    font-size: 16px; /* Increased font size for label */
+    font-weight: 500;
+  }
+  
+  .update-leave-form .form-control {
+    border-radius: 4px;
+    font-size: 16px; /* Larger font size */
+    height: 45px; /* Larger height */
+  }
+  
+  .update-leave-form .form-control-lg {
+    font-size: 18px; /* Larger font size for form control */
+    height: 50px; /* Larger height */
+  }
+  
+  .update-leave-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 16px;
+    font-size: 18px; /* Larger font size for button */
+  }
+  
+  .update-leave-form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .update-leave-form .btn-lg {
+    padding: 12px 18px; /* Larger button padding */
+  }
+  

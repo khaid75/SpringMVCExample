@@ -1,0 +1,73 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+  <div class="container-fluid">
+    <!-- Left Side Navbar Items -->
+    <a class="navbar-brand" routerLink="/">HR Management</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/dashboard">Dashboard</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="/employee-list">Employee List</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/employee/leave">Employee List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/add-employee/create">Add Employee</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/attendance">Attendance</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/leave-management/create">Leave Management</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/payroll">Payroll</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/reports">Reports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/settings">Settings</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right Side Login and Signup -->
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a
+          class="nav-link btn btn-outline-light ms-lg-2 custom-login-btn"
+          routerLink="/login"
+          style="padding: 0.8rem 2rem; font-size: 1.2rem; border-radius: 25px;"
+        >
+          Login
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link btn btn-light text-primary ms-lg-2 custom-signup-btn"
+          routerLink="/signup"
+          style="padding: 0.8rem 2rem; font-size: 1.2rem; border-radius: 25px;"
+        >
+          Signup
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

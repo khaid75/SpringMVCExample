@@ -1,0 +1,85 @@
+<div class="container mt-5">
+  <div class="card shadow-lg border-0 rounded">
+    <div class="card-header bg-primary text-white text-center">
+      <h2 class="fw-bold">Add Employee</h2>
+    </div>
+    <div class="card-body bg-light">
+      <form [formGroup]="employeeForm" (ngSubmit)="SubmitForm()">
+        <!-- Name Field -->
+        <div class="mb-4">
+          <label for="name" class="form-label fw-bold">Name</label>
+          <input 
+            type="text" 
+            id="name" 
+            class="form-control form-control-lg border-primary" 
+            formControlName="name" 
+            placeholder="Enter full name" 
+            required
+          />
+        </div>
+
+        <!-- Email Field -->
+        <div class="mb-4">
+          <label for="email" class="form-label fw-bold">Email</label>
+          <input 
+            type="email" 
+            id="email" 
+            class="form-control form-control-lg border-primary" 
+            formControlName="email" 
+            placeholder="Enter email address" 
+            required
+          />
+        </div>
+
+        <!-- Department Field -->
+        <div class="mb-4">
+          <label for="department" class="form-label fw-bold">Department</label>
+          <select 
+            id="department" 
+            class="form-select form-select-lg border-primary" 
+            formControlName="department" 
+            required
+          >
+            <option selected disabled>Choose department...</option>
+            <option value="IT">IT</option>
+            <option value="HR">HR</option>
+            <option value="Finance">Finance</option>
+            <option value="Marketing">Marketing</option>
+          </select>
+        </div>
+
+        <!-- Mobile Field -->
+        <div class="mb-4">
+          <label for="mobile" class="form-label fw-bold">Mobile</label>
+          <input 
+            type="tel" 
+            id="mobile" 
+            class="form-control form-control-lg border-primary" 
+            formControlName="mobile" 
+            placeholder="Enter mobile number" 
+            required
+          />
+        </div>
+
+        <!-- Buttons -->
+        <div class="d-flex justify-content-between align-items-center">
+          <!-- Submit Button -->
+          <button 
+            type="submit" 
+            class="btn btn-success btn-lg px-5 shadow-sm"
+          >
+            Submit
+          </button>
+          <!-- View List Button -->
+          <button 
+            type="button" 
+            class="btn btn-outline-primary btn-lg px-5 shadow-sm" 
+            routerLink="/add-employee/list"
+          >
+            View List
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

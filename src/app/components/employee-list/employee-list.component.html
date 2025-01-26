@@ -1,0 +1,32 @@
+<body>
+    <div class="container table-container">
+      <h2 class="text-center mb-4">Employee List</h2>
+      <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Department</th>
+            <th>Mobile</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let employee of employees">
+            <td>{{ employee.id }}</td>
+            <td>{{ employee.Name }}</td>
+            <td>{{ employee.Email }}</td>
+            <td>{{ employee.Department }}</td>
+            <td>{{ employee.Mobile }}</td>
+            <td>{{ employee.Age }}</td>
+            <td>
+            <td class="action-buttons">
+              <button class="btn btn-warning btn-sm">Edit</button>
+              <button class="btn btn-danger btn-sm">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>

@@ -1,0 +1,52 @@
+/* Navbar Styling */
+.navbar {
+    font-size: 1.3rem; /* Increase font size for better readability */
+    background-color: #000; /* Black background */
+    z-index: 1000;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem; /* Reduced font size for the brand name */
+    letter-spacing: 1px; /* Added letter spacing for more space between letters */
+    color: white !important; /* White color for brand text */
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: white !important;
+    font-size: 1.5rem; /* Increased font size for navigation links */
+    letter-spacing: 0.5px; /* Slight spacing between letters */
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107; /* Yellow hover effect */
+    transform: scale(1.1); /* Slightly enlarge the text */
+  }
+  
+  /* Custom Login and Signup Button Styling */
+  .custom-login-btn {
+    border: 2px solid white;
+    color: white !important;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-login-btn:hover {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  .custom-signup-btn {
+    color: 000;
+    background-color:#ffc107; /* Light blue */
+    border: 2px solid #ffc107;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-signup-btn:hover {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+  

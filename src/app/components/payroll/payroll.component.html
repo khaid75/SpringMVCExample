@@ -1,0 +1,89 @@
+<div class="payroll-dashboard">
+    <h2>Payroll Information</h2>
+  
+    <!-- Employee Selection -->
+    <div class="employee-selection">
+      <label for="employee-select">Select Employee:</label>
+      <select id="employee-select">
+        <option value="1">মোঃ কামরুল ইসলাম</option>
+        <option value="2">আব্দুল্লাহ আল মামুন</option>
+        <option value="3">মাহবুব আলম</option>
+        <option value="4">রাকিব হোসেন</option>
+        <option value="5">সঞ্জিদা</option>
+        <option value="6">মনায়েম হোসেন</option>
+        <option value="7">মামুনুর রশিদ</option>
+        <option value="8">এমডি খালিদ</option>
+        <option value="9">সেরজন উদ্দিন</option>
+        <option value="10">সাবিনা আক্তার নিশি</option>
+        <option value="11">জিদনী হোসেন</option>
+        <option value="12">তারেক জামিন</option>
+        <option value="13">আবির হোসেন বাবু</option>
+        <option value="14">সিয়াম হোসেন</option>
+        <option value="15">ফাতেমা আক্তার মুন্নি</option>
+      </select>
+    </div>
+  
+    <!-- Employee Info & Salary Details (This will be dynamically updated based on the selected employee) -->
+    <div class="employee-info">
+      <p><strong>Employee Name:</strong> <span id="employee-name">মোঃ কামরুল ইসলাম</span></p>
+      <p><strong>Employee ID:</strong> <span id="employee-id">12345</span></p>
+      <p><strong>Department:</strong> HR</p>
+      <p><strong>Position:</strong> Senior HR Manager</p>
+      <p><strong>Joining Date:</strong> 01/01/2020</p>
+    </div>
+  
+    <div class="salary-breakdown">
+      <table>
+        <thead>
+          <tr>
+            <th>Salary Components</th>
+            <th>Amount (BDT)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Basic Salary</td>
+            <td>30,000</td>
+          </tr>
+          <tr>
+            <td>HRA</td>
+            <td>10,000</td>
+          </tr>
+          <tr>
+            <td>Overtime</td>
+            <td>2,000</td>
+          </tr>
+          <tr>
+            <td>Bonus</td>
+            <td>5,000</td>
+          </tr>
+          <tr>
+            <td><strong>Gross Salary</strong></td>
+            <td><strong>47,000</strong></td>
+          </tr>
+          <tr>
+            <td>Tax Deduction</td>
+            <td>-2,000</td>
+          </tr>
+          <tr>
+            <td>Provident Fund</td>
+            <td>-3,000</td>
+          </tr>
+          <tr>
+            <td>Loan Repayment</td>
+            <td>-1,000</td>
+          </tr>
+          <tr>
+            <td><strong>Net Salary</strong></td>
+            <td><strong>41,000</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <div class="action-buttons">
+      <button>Download Payslip</button>
+      <button>Generate Tax Report</button>
+    </div>
+  </div>
+  

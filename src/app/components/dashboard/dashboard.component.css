@@ -1,0 +1,87 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+
+  .dashboard-card {
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-header {
+    background-color: #212529;
+    color: white;
+    font-weight: bold;
+  }
+
+  .card-body {
+    background-color: #ffffff;
+    color: #333;
+  }
+
+  .card-footer {
+    background-color: #212529;
+    color: white;
+  }
+
+  .stat-card {
+    font-size: 30px;
+    font-weight: bold;
+    color: #212529;
+  }
+
+  .stat-card small {
+    font-size: 16px;
+    color: #777;
+  }
+
+  .navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #212529;
+    background-color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .sidebar {
+    background-color: #212529;
+    color: white;
+  }
+
+  .sidebar a {
+    color: rgb(123, 139, 221);
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+  }
+
+  .sidebar a:hover {
+    background-color: #343a40;
+    border-radius: 5px;
+  }
+
+  .navbar {
+    background-color: #a7aeb5;
+  }
+
+  /* Responsive for smaller screens */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .navbar-nav {
+      margin-top: 10px;
+    }
+  }

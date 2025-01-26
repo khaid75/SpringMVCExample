@@ -1,0 +1,61 @@
+/* Update Leave Form */
+.update-leave-form {
+    max-width: 400px; /* Smaller width */
+    margin: 0 auto;
+    padding: 10px; /* Reduced padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .update-leave-form h2 {
+    font-size: 18px; /* Smaller heading size */
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px; /* Reduced margin */
+  }
+  
+  .update-leave-form .form-group {
+    margin-bottom: 10px; /* Reduced margin */
+  }
+  
+  .update-leave-form label {
+    font-size: 12px; /* Smaller font size */
+    font-weight: 500;
+  }
+  
+  .update-leave-form .form-control {
+    border-radius: 4px;
+    font-size: 12px; /* Smaller font size */
+    height: 28px; /* Smaller height */
+  }
+  
+  .update-leave-form .form-control-sm {
+    font-size: 11px; /* Further reduced font size */
+    height: 26px; /* Further reduced height */
+  }
+  
+  .update-leave-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 6px 10px;
+    font-size: 13px; /* Smaller font size for button */
+  }
+  
+  .update-leave-form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .update-leave-form .btn-sm {
+    padding: 4px 8px; /* Reduced padding for button */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .update-leave-form {
+      padding: 8px; /* Reduced padding for small screens */
+      max-width: 100%;
+    }
+  }
+  

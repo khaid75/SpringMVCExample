@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.settings-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item.active {
+    background-color: #007bff;
+    color: white;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+form .form-control {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.settings-section {
+    display: none;
+}
+
+.settings-section:first-child {
+    display: block; /* Show the first section by default */
+}
